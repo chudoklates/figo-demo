@@ -1,0 +1,11 @@
+export { default as ScrolldownLink } from "./components/ScrolldownLink";
+export { default as OldHero } from "./Hero";
+// export { default as HeroSection } from "./HeroSection";
+export { default as BackgroundSection } from "./BackgroundSection";
+export { default as LandingList } from "./LandingList";
+export { default as AboutUs } from "./AboutUs";
+export { default as Opinions } from "./Opinions";
+export { default as Features } from "./Features";
+export { default as CategoriesSection } from "./CategoriesSection";
+export { default as ClosingSection } from "../layout/ClosingSection";
+export { default as DarkBackgroundStrip } from "../layout/components/DarkBackgroundStrip";

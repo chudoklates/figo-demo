@@ -1,0 +1,195 @@
+form.hs-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input.hs-input {
+  font: inherit;
+  letter-spacing: inherit;
+  color: currentColor;
+  border: 0;
+  box-sizing: content-box;
+  background: none;
+  height: 1.4375em;
+  margin: 0;
+  display: block;
+  min-width: 0;
+  width: 100%;
+  animation-name: mui-auto-fill-cancel;
+  animation-duration: 10ms;
+  padding: 16.5px 14px;
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  border-radius: 4px;
+  background-color: white;
+}
+
+input.hs-input.error {
+  border-color: #EB1118;
+}
+
+div.input {
+  font-size: 18px;
+  line-height: 1.4375em;
+  font-weight: 400;
+  font-family: 'Poppins','Poppins Fallback';
+  color: #0D1138;
+  box-sizing: border-box;
+  position: relative;
+  cursor: text;
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+}
+
+div.hs-form-field {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.hs-form-field > label {
+  color: #0D1138;
+  font-size: 18px;
+  line-height: 18px;
+  font-weight: 600;
+  position: relative;
+  display: block;
+  padding: 0;
+  font-family: 'Poppins','Poppins Fallback';
+  margin-bottom: 12px;
+  overflow-x: clip;
+  overflow-y: unset;
+}
+
+.hs-button.primary.large {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  background-color: transparent;
+  outline: 0;
+  border: 0;
+  margin: 0;
+  border-radius: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  vertical-align: middle;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+  color: inherit;
+  font-family: 'Poppins','Poppins Fallback';
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 1.75;
+  text-transform: uppercase;
+  color: #0D1138;
+  min-width: 64px;
+  padding: 6px 16px;
+  border: 0;
+  border-radius: 4px;
+  -webkit-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  color: var(--variant-containedColor);
+  background-color: var(--variant-containedBg);
+  box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+  --variant-textColor: #0067BE;
+  --variant-outlinedColor: #0067BE;
+  --variant-outlinedBorder: rgba(0, 103, 190, 0.5);
+  --variant-containedColor: #fff;
+  --variant-containedBg: #0067BE;
+  padding: 8px 22px;
+  font-size: 0.9375rem;
+  width: 100%;
+  border-radius: 20px;
+  gap: 16px;
+  text-transform: none;
+  padding: 16px 16px;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.hs-button.primary.large:hover {
+  --variant-containedBg: rgb(0, 72, 133);
+  --variant-textBg: rgba(0, 103, 190, 0.04);
+  --variant-outlinedBorder: #0067BE;
+  --variant-outlinedBg: rgba(0, 103, 190, 0.04);
+}
+
+ul.hs-error-msgs {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hs-error-msgs > li > .hs-main-font-element {  
+  color: #EB1118;
+  font-family: 'Poppins','Poppins Fallback';
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.66;
+  text-align: left;
+  margin-top: 3px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+.hs-error-msg {  
+  color: #EB1118;
+  font-family: 'Poppins','Poppins Fallback';
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.66;
+  text-align: left;
+  margin-top: 3px;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+
+ul.hs-error-msgs--main {  
+  list-style-type: none;
+  padding: 0;
+  margin-top: 8px;
+}
+
+ul.hs-error-msgs--main > li {
+  background-color: #FFF;
+  padding: 10px;
+  border-left: 6px solid #EB1118;
+}
+
+.hs-error-msgs--main > li > .hs-error-msg {  
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hs-error-msgs--main > li > .hs-error-msg::before {
+  content: url('/error.svg');
+  width: 24px;
+  height: 24px;
+}

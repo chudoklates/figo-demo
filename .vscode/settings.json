@@ -1,0 +1,20 @@
+{
+  "cSpell.language": "en,de-de,en-GB",
+  "cSpell.enabledFileTypes": {
+    "mdx": true,
+    "js": true,
+    "ts": true,
+  },
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.wordWrapColumn": 80,
+  "cSpell.words": [
+    "Aktivitätenkatalog",
+    "Bestätigungs",
+    "Zyklusverlängerung"
+  ],
+  "workbench.editor.customLabels.enabled": true,
+  "workbench.editor.customLabels.patterns": {
+    "app/**/page.mdx": "/${dirname}",
+    "app/**/page.tsx": "/${dirname}"
+  }
+}
