@@ -11,7 +11,7 @@ export const getLocationInfoForCoordinates = async (
   const geocodedLocation = await fetch(
     `https://maps.googleapis.com/maps/api/geocode/json?${
       placeId ? `place_id=${placeId}` : `latlng=${location.lat},${location.lng}`
-    }&key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}&region=de&language=de${
+    }&key=${process.env.GOOGLE_MAPS_GEOCODING_KEY}&region=de&language=de${
       placeId ? "" : `&result_type=street_address`
     }`,
     { cache: "force-cache" }
@@ -32,9 +32,7 @@ export const getGeometryForAddress = async (address: string) => {
   const geocodedLocation = await fetch(
     `https://maps.googleapis.com/maps/api/geocode/json?address=${encodeURIComponent(
       address
-    )}&key=${
-      process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY
-    }&region=de&language=de`,
+    )}&key=${process.env.GOOGLE_MAPS_GEOCODING_KEY}&region=de&language=de`,
     { cache: "force-cache" }
   ).then((res) => res.json());
 
