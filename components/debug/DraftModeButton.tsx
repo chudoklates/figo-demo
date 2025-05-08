@@ -2,23 +2,23 @@ import { Preview } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
 import NextLink from "next/link";
 
+const isDevelopment = process.env.NODE_ENV === "development";
+
 export default function DraftModeButton({
-  isEnabled,
-  pathname,
+  isEnabled: _,
+  pathname: __,
 }: {
   isEnabled: boolean;
   pathname: string;
 }) {
-  const isDevelopment = process.env.NODE_ENV === "development";
-
-  if (!isDevelopment && !isEnabled) return null;
+  if (!isDevelopment) return null;
 
   return (
     <IconButton
       aria-label="Toggle Draft Mode"
-      color={isEnabled ? "primary" : "default"}
+      color="primary"
       component={NextLink}
-      href={`/api/${isEnabled ? "disable-draft" : "draft"}?path=${pathname}`}
+      href="#"
       replace={true}
       prefetch={false}
       sx={{
