@@ -1,4 +1,4 @@
-import { BlogPost } from "@/api/types/blog";
+import { BlogPost } from "@/graphql/types/blog";
 import { ContentfulImage } from "@/components";
 import {
   Card,

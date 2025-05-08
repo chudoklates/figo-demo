@@ -6,7 +6,7 @@ import { EventCard } from "@/components";
 import { Button, Divider, Grid2, Stack } from "@mui/material";
 import EventsFilters from "./EventsFilters";
 import EventsPagination from "./components/EventsPagination";
-import { TimeSlotFilter } from "@/api/types/event";
+import { TimeSlotFilter } from "@/graphql/types/event";
 import { ArrowBackRounded } from "@mui/icons-material";
 import NextLink from "next/link";
 import EmptyState from "./components/EmptyState";

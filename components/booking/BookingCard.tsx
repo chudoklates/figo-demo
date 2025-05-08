@@ -10,7 +10,7 @@ import CardMedia from "@mui/material/CardMedia";
 
 import { LocationOn } from "@mui/icons-material";
 import { Box, CardActionArea } from "@mui/material";
-import { ActivityRaw } from "@/api/types/activities";
+import { ActivityRaw } from "@/graphql/types/activities";
 import {
   getActivity,
   getActivityLocationString,

@@ -1,4 +1,4 @@
-import { User } from "@/api/types/user";
+import { User } from "@/graphql/types/user";
 import { Avatar, Box, Link, Stack } from "@mui/material";
 import UserDropdown from "./UserDropdown";
 import NextLink from "next/link";

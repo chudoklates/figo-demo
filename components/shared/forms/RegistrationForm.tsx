@@ -14,7 +14,7 @@ import { useMutation } from "@apollo/client";
 import { boolean, object, string } from "yup";
 import { Formik, Form } from "formik";
 
-import { REGISTER_PARTICIPANT } from "@/api/mutations/user";
+import { REGISTER_PARTICIPANT } from "@/graphql/mutations/user";
 import { CheckboxField, FormField, FormPhoneField } from "@/components";
 import { getErrorMessage } from "@/utils/error";
 import { usePathname, useRouter } from "next/navigation";

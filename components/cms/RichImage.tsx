@@ -1,4 +1,4 @@
-import { ComponentRichImage } from "@/api/types/cms";
+import { ComponentRichImage } from "@/graphql/types/cms";
 import { Stack, Typography } from "@mui/material";
 import ContentfulImage from "./ContentfulImage";
 

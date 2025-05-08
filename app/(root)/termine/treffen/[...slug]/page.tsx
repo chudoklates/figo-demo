@@ -4,7 +4,7 @@ import { Box, Container, Divider, Stack, Typography } from "@mui/material";
 import { draftMode } from "next/headers";
 import { notFound, redirect } from "next/navigation";
 
-import type { Event } from "@/api/types/event";
+import type { Event } from "@/graphql/types/event";
 
 import {
   getAllTimeslotsSlugs,

@@ -3,9 +3,9 @@
 import {
   API_GET_ACTIVITY,
   API_LIST_ACTIVITIES,
-} from "@/api/queries/activities";
-import { ActivityRaw } from "@/api/types/activities";
-import { Pagination } from "@/api/types/misc";
+} from "@/graphql/queries/activities";
+import { ActivityRaw } from "@/graphql/types/activities";
+import { Pagination } from "@/graphql/types/misc";
 import { getClient } from "@/lib/apolloServerClient";
 
 export const loginRandevuAPIUser = async () => {

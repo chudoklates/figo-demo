@@ -1,4 +1,4 @@
-import { ActivityCategory } from "@/api/types/activities";
+import { ActivityCategory } from "@/graphql/types/activities";
 import { LatLng, FiltersLocation } from "./geo";
 
 type FieldFilterOperator = {

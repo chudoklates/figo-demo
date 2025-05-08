@@ -1,4 +1,4 @@
-import { BlogPost } from "@/api/types/blog";
+import { BlogPost } from "@/graphql/types/blog";
 import { Box, Container, Divider, Stack, Typography } from "@mui/material";
 import AuthorBlob from "./AuthorBlob";
 import { TagChip } from "@/components";

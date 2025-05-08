@@ -5,16 +5,16 @@ import {
   Variant,
   VariantBookingOption,
   SEOMetadata,
-} from "@/api/types/activities";
+} from "@/graphql/types/activities";
 import {
   getFieldOptions,
   getFieldValue,
   getObjectFieldValue,
   getObjectSetFieldValue,
 } from "./field";
-import { FileObject, GoogleReview } from "@/api/types/misc";
+import { FileObject, GoogleReview } from "@/graphql/types/misc";
 import { LocationData } from "@/types/geo";
-import { TransactionLight } from "@/api/types/transactions";
+import { TransactionLight } from "@/graphql/types/transactions";
 
 export function getVariantStartDate(variant: Variant | null): Date | null {
   if (!variant) return null;

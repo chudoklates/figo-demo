@@ -1,6 +1,6 @@
 "use client";
 
-import { ComponentUpcomingEventsSection, CTAType } from "@/api/types/cms";
+import { ComponentUpcomingEventsSection, CTAType } from "@/graphql/types/cms";
 import { Container, Stack, Typography } from "@mui/material";
 import CTA from "../landing/components/CTA";
 import UpcomingEventsList from "./UpcomingEventsList";

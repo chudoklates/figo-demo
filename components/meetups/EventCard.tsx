@@ -1,4 +1,4 @@
-import { Restaurant, TimeSlot } from "@/api/types/event";
+import { Restaurant, TimeSlot } from "@/graphql/types/event";
 import {
   Card,
   CardActionArea,

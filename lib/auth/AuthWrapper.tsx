@@ -2,7 +2,7 @@
 
 import React, { useEffect } from "react";
 
-import { GET_USER } from "@/api/queries/users";
+import { GET_USER } from "@/graphql/queries/users";
 import { usePathname, useRouter, useSearchParams } from "next/navigation";
 import { useQuery } from "@apollo/client";
 import { Loading } from "@/components";

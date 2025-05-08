@@ -1,4 +1,4 @@
-import { Field, ObjectField, ObjectSetField } from "@/api/types/fields";
+import { Field, ObjectField, ObjectSetField } from "@/graphql/types/fields";
 
 export function fieldIsObjectType(field: Field<any>): field is ObjectField {
   return field.field_type.input_type === "OBJECT";

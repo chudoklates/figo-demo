@@ -3,10 +3,10 @@
 import { useContext } from "react";
 import BookingContext from "@/lib/context/BookingContext";
 import { getActivityFromBooking } from "@/utils/activity";
-import { GET_TRANSACTION } from "@/api/queries/transactions";
+import { GET_TRANSACTION } from "@/graphql/queries/transactions";
 import { useQuery } from "@apollo/client";
-import { Transaction } from "@/api/types/transactions";
-import { TRIGGER_TRANSITION } from "@/api/mutations/transaction";
+import { Transaction } from "@/graphql/types/transactions";
+import { TRIGGER_TRANSITION } from "@/graphql/mutations/transaction";
 import { useMutation } from "@apollo/client";
 import { UserContext } from "../context/UserContext";
 import {

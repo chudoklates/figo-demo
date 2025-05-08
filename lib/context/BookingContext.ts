@@ -1,5 +1,5 @@
-import { Activity, Variant } from "@/api/types/activities";
-import { BookingState, TransactionLight } from "@/api/types/transactions";
+import { Activity, Variant } from "@/graphql/types/activities";
+import { BookingState, TransactionLight } from "@/graphql/types/transactions";
 import { createContext } from "react";
 
 export type BookingStateExtended =

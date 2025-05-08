@@ -8,7 +8,7 @@ import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 
 import { EventAvailable, LocationOn } from "@mui/icons-material";
-import { Activity } from "@/api/types/activities";
+import { Activity } from "@/graphql/types/activities";
 import { getDistanceInKm } from "@/lib/geo/utils";
 import Image from "next/image";
 import { Box, CardActionArea } from "@mui/material";

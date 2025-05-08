@@ -1,4 +1,4 @@
-import { Activity } from "@/api/types/activities";
+import { Activity } from "@/graphql/types/activities";
 import { useEffect, useMemo, useState } from "react";
 import usePrevious from "./usePrevious";
 

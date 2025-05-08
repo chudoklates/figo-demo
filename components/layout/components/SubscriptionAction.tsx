@@ -8,7 +8,7 @@ import { DropdownContext } from "./UserDropdown";
 import { UserContext } from "@/lib/context/UserContext";
 import { SubscriptionWithSchedule } from "@/types/subscription";
 import Stripe from "stripe";
-import { User } from "@/api/types/user";
+import { User } from "@/graphql/types/user";
 
 export default function SubscriptionAction() {
   const { user } = useContext(UserContext);

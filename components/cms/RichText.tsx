@@ -1,6 +1,6 @@
 import { documentToReactComponents } from "@contentful/rich-text-react-renderer";
 import { BLOCKS, INLINES } from "@contentful/rich-text-types";
-import { Content } from "@/api/types/cms";
+import { Content } from "@/graphql/types/cms";
 import { Divider, Link, Typography } from "@mui/material";
 import RichImage from "./RichImage";
 import NextLink from "next/link";

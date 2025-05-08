@@ -16,7 +16,7 @@ import {
   Logout,
 } from "@mui/icons-material";
 import React, { createContext, useState } from "react";
-import { User } from "@/api/types/user";
+import { User } from "@/graphql/types/user";
 import Link from "next/link";
 import { Box, Theme, useMediaQuery } from "@mui/material";
 import { styled } from "@mui/material/styles";

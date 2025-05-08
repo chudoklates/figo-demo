@@ -1,5 +1,5 @@
 import { Container, Grid2 } from "@mui/material";
-import { ComponentTextImageSection } from "@/api/types/cms";
+import { ComponentTextImageSection } from "@/graphql/types/cms";
 import { ContentfulImage } from "../cms";
 import { RichText } from "../cms/RichText";
 

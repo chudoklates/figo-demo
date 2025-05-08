@@ -1,8 +1,8 @@
 import {
   GET_ALL_DOCUMENTS_SLUGS,
   GET_DOCUMENT_PAGE,
-} from "@/api/queries/document";
-import type { Collection, DocumentPage } from "@/api/types/cms";
+} from "@/graphql/queries/document";
+import type { Collection, DocumentPage } from "@/graphql/types/cms";
 import { PageContainer, DraftModeButton } from "@/components";
 import { RichText } from "@/components/cms/RichText";
 import { contentfulClient } from "@/lib/cms";

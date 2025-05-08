@@ -2,7 +2,7 @@
 
 import { useEffect } from "react";
 import { useMutation } from "@apollo/client";
-import { LOGIN_GUEST } from "@/api/mutations/user";
+import { LOGIN_GUEST } from "@/graphql/mutations/user";
 
 export default function useEnforceQuestToken() {
   const [getToken] = useMutation(LOGIN_GUEST);

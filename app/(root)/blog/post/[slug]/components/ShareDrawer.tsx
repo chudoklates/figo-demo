@@ -5,7 +5,7 @@ import { IconButton, Drawer } from "@mui/material";
 import React, { useState } from "react";
 import ShareArticle from "./ShareArticle";
 import ShareArticleButton from "./ShareArticleButton";
-import { BlogPost } from "@/api/types/blog";
+import { BlogPost } from "@/graphql/types/blog";
 
 export default function ShareDrawer({ post }: { post: BlogPost }) {
   const [open, setOpen] = useState(false);

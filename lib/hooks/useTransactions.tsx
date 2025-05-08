@@ -1,5 +1,8 @@
-import { GET_TRANSACTIONS } from "@/api/queries/transactions";
-import { BookingState, TransactionPagination } from "@/api/types/transactions";
+import { GET_TRANSACTIONS } from "@/graphql/queries/transactions";
+import {
+  BookingState,
+  TransactionPagination,
+} from "@/graphql/types/transactions";
 import { useQuery } from "@apollo/client";
 
 export default function useTransactions(states: BookingState[] = []) {

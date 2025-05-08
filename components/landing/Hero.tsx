@@ -3,7 +3,7 @@ import { KeyboardDoubleArrowDown } from "@mui/icons-material";
 import type {
   Content,
   ContentfulImage as ContentfulImageType,
-} from "@/api/types/cms";
+} from "@/graphql/types/cms";
 import { RichText } from "../cms/RichText";
 import { ContentfulImage } from "../cms";
 

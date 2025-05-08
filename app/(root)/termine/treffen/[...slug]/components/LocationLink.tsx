@@ -1,5 +1,5 @@
 import React from "react";
-import { Event } from "@/api/types/event";
+import { Event } from "@/graphql/types/event";
 import { ArrowForwardIos } from "@mui/icons-material";
 import { Box, Link, Stack, Typography } from "@mui/material";
 

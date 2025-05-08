@@ -1,13 +1,13 @@
-import { GET_TRANSACTIONS } from "@/api/queries/transactions";
+import { GET_TRANSACTIONS } from "@/graphql/queries/transactions";
 import {
   TransactionLight,
   TransactionPagination,
-} from "@/api/types/transactions";
-import { User } from "@/api/types/user";
+} from "@/graphql/types/transactions";
+import { User } from "@/graphql/types/user";
 import { ApolloCache, FetchResult, Reference } from "@apollo/client";
 import { fieldIsObjectSetType, fieldIsObjectType } from "./field";
-import { Field } from "@/api/types/fields";
-import { SimpleFieldData } from "@/api/fragments/fields";
+import { Field } from "@/graphql/types/fields";
+import { SimpleFieldData } from "@/graphql/fragments/fields";
 
 /**
  * Returns an updater function for the cache that updates the user's fields

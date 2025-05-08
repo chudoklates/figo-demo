@@ -1,15 +1,15 @@
 "use server";
 
-import { GET_ALL_POSTS, GET_SLUGS_FOR_ALL_POSTS } from "@/api/queries/blog";
+import { GET_ALL_POSTS, GET_SLUGS_FOR_ALL_POSTS } from "@/graphql/queries/blog";
 import {
   GET_SLUGS_FOR_ALL_TIMESLOTS,
   GET_TIMESLOT,
   GET_UPCOMING_TIMESLOTS,
   GET_TIMESLOT_BY_SLUG,
-} from "@/api/queries/event";
-import { BlogPostCollection } from "@/api/types/blog";
-import { Collection, ContentfulPagination } from "@/api/types/cms";
-import { TimeSlot, TimeSlotFilter } from "@/api/types/event";
+} from "@/graphql/queries/event";
+import { BlogPostCollection } from "@/graphql/types/blog";
+import { Collection, ContentfulPagination } from "@/graphql/types/cms";
+import { TimeSlot, TimeSlotFilter } from "@/graphql/types/event";
 import { contentfulClient } from "@/lib/cms";
 import { draftMode } from "next/headers";
 

@@ -1,4 +1,4 @@
-import { BlogPost } from "@/api/types/blog";
+import { BlogPost } from "@/graphql/types/blog";
 import { NextImageAvatar } from "@/components";
 import { Box, Container, Stack, Typography } from "@mui/material";
 

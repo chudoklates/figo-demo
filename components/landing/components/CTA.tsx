@@ -1,4 +1,4 @@
-import { CTAType } from "@/api/types/cms";
+import { CTAType } from "@/graphql/types/cms";
 import {
   WhatsApp,
   ArrowForwardRounded,

@@ -1,4 +1,4 @@
-import { Activity } from "@/api/types/activities";
+import { Activity } from "@/graphql/types/activities";
 import { EventAvailable } from "@mui/icons-material";
 import { Stack, Typography } from "@mui/material";
 import React from "react";

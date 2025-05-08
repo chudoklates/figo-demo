@@ -10,7 +10,7 @@ import {
 } from "@mui/icons-material";
 import React from "react";
 import { ResultSnackbar } from "@/components";
-import { BlogPost } from "@/api/types/blog";
+import { BlogPost } from "@/graphql/types/blog";
 
 function getHref({
   baseHref,

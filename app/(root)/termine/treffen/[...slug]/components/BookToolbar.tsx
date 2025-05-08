@@ -1,6 +1,6 @@
 "use client";
 
-import { Event } from "@/api/types/event";
+import { Event } from "@/graphql/types/event";
 import { Box, Container, Skeleton, Stack, Typography } from "@mui/material";
 import BookingButton from "./BookingButton";
 import ShareButton from "./ShareButton";

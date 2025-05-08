@@ -1,4 +1,4 @@
-import { ContentfulTagName } from "@/api/types/cms";
+import { ContentfulTagName } from "@/graphql/types/cms";
 import { ColorfulChip } from "../shared";
 
 const TAG_COLORS = {

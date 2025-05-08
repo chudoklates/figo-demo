@@ -1,6 +1,6 @@
 "use client";
 
-import { Activity } from "@/api/types/activities";
+import { Activity } from "@/graphql/types/activities";
 
 import Image from "next/image";
 import "@/theme/mapOverrides.css";

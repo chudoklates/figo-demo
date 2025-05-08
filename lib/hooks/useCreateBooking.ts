@@ -1,9 +1,9 @@
 import {
   CREATE_TRANSACTION,
   START_TRANSACTION,
-} from "@/api/mutations/transaction";
-import { GET_TRANSACTION } from "@/api/queries/transactions";
-import { TransactionLight } from "@/api/types/transactions";
+} from "@/graphql/mutations/transaction";
+import { GET_TRANSACTION } from "@/graphql/queries/transactions";
+import { TransactionLight } from "@/graphql/types/transactions";
 import { delay } from "@/utils/delay";
 import { useApolloClient, useLazyQuery, useMutation } from "@apollo/client";
 import { BookingStateExtended } from "../context/BookingContext";

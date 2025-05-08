@@ -1,7 +1,7 @@
 import { Container, Stack, Typography } from "@mui/material";
 import heroBackground from "@/public/hero-background.webp";
 import Image from "next/image";
-import { ComponentBackgroundHero } from "@/api/types/cms";
+import { ComponentBackgroundHero } from "@/graphql/types/cms";
 import { RichText } from "../cms/RichText";
 import CTA from "./components/CTA";
 

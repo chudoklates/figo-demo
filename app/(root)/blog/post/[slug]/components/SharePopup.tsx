@@ -5,7 +5,7 @@ import { Dialog, DialogContent, IconButton } from "@mui/material";
 import React, { useState } from "react";
 import ShareArticle from "./ShareArticle";
 import ShareArticleButton from "./ShareArticleButton";
-import { BlogPost } from "@/api/types/blog";
+import { BlogPost } from "@/graphql/types/blog";
 
 export default function SharePopup({ post }: { post: BlogPost }) {
   const [open, setOpen] = useState(false);

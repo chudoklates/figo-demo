@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import { UserContext } from "../context/UserContext";
-import { Activity, MappedActivity } from "@/api/types/activities";
+import { Activity, MappedActivity } from "@/graphql/types/activities";
 import { getDistanceInKm } from "../geo/utils";
 import { Filters } from "@/types/filters";
 

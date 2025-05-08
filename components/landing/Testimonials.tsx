@@ -1,8 +1,8 @@
 "use client";
 
-import { ComponentTestimonialsSection } from "@/api/types/cms";
+import { ComponentTestimonialsSection } from "@/graphql/types/cms";
 import { Box, Container, Grid2, Paper, Stack, Typography } from "@mui/material";
-import type { Testimonial } from "@/api/types/cms";
+import type { Testimonial } from "@/graphql/types/cms";
 import { RichText } from "../cms/RichText";
 import { CarouselDots, NextImageAvatar, SingleSlideCarousel } from "../shared";
 import CTA from "./components/CTA";

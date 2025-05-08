@@ -1,4 +1,4 @@
-import type { BlogPost } from "@/api/types/blog";
+import type { BlogPost } from "@/graphql/types/blog";
 import { ContentfulImage, NextImageAvatar } from "@/components";
 import { History } from "@mui/icons-material";
 import {

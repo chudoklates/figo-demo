@@ -1,4 +1,4 @@
-import { Activity } from "@/api/types/activities";
+import { Activity } from "@/graphql/types/activities";
 import { Box, Divider, Grid2, Stack } from "@mui/material";
 import React from "react";
 import ActivityCard from "./ActivityCard";

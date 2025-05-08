@@ -4,8 +4,8 @@ import { Metadata } from "next";
 import { draftMode } from "next/headers";
 import { notFound } from "next/navigation";
 
-import { GET_POST_BY_SLUG } from "@/api/queries/blog";
-import { BlogPostCollection } from "@/api/types/blog";
+import { GET_POST_BY_SLUG } from "@/graphql/queries/blog";
+import { BlogPostCollection } from "@/graphql/types/blog";
 
 import { contentfulClient } from "@/lib/cms";
 

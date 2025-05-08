@@ -4,8 +4,8 @@ import React, { createContext } from "react";
 
 import { useQuery } from "@apollo/client";
 
-import { GET_MY_PARTICIPANTS, GET_USER } from "@/api/queries/users";
-import { Me, MyParticipantsType, User } from "@/api/types/user";
+import { GET_MY_PARTICIPANTS, GET_USER } from "@/graphql/queries/users";
+import { Me, MyParticipantsType, User } from "@/graphql/types/user";
 import { getAllFieldValues } from "@/utils/field";
 
 export type UserContext = {

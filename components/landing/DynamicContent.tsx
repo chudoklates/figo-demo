@@ -1,4 +1,4 @@
-import type { DynamicContentType } from "@/api/types/cms";
+import type { DynamicContentType } from "@/graphql/types/cms";
 import BackgroundHero from "./BackgroundHero";
 import FeaturedBlogArticleSection from "./FeaturedBlogArticleSection";
 import HowItWorks from "./HowItWorks";

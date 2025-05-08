@@ -1,6 +1,6 @@
 import { Avatar, Box, Stack, Typography } from "@mui/material";
 import SubscriptionText from "./SubscriptionText";
-import { User } from "@/api/types/user";
+import { User } from "@/graphql/types/user";
 import React, { PropsWithChildren } from "react";
 import SubscriptionAction from "./SubscriptionAction";
 

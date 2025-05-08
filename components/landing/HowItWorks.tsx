@@ -2,7 +2,7 @@ import { Box, Container, Stack, Typography } from "@mui/material";
 import type {
   ComponentHowItWorksSection,
   HowItWorksItem,
-} from "@/api/types/cms";
+} from "@/graphql/types/cms";
 import { RichText } from "../cms/RichText";
 import { ContentfulImage } from "../cms";
 import CTA from "./components/CTA";

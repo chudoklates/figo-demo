@@ -1,6 +1,6 @@
 import { Box, Container, Stack, Typography } from "@mui/material";
 import { FeaturedPostCard } from "../blog";
-import { ComponentFeaturedArticleSection } from "@/api/types/cms";
+import { ComponentFeaturedArticleSection } from "@/graphql/types/cms";
 import CTA from "./components/CTA";
 
 export default async function FeaturedBlogArticleSection({

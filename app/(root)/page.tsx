@@ -1,5 +1,5 @@
-import { GET_HOMEPAGE } from "@/api/queries/landing";
-import { Collection, Homepage } from "@/api/types/cms";
+import { GET_HOMEPAGE } from "@/graphql/queries/landing";
+import { Collection, Homepage } from "@/graphql/types/cms";
 import { DynamicContent, DraftModeButton } from "@/components";
 import { contentfulClient } from "@/lib/cms";
 import { Stack } from "@mui/material";

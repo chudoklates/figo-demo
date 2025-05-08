@@ -19,8 +19,8 @@ import { clearToken } from "@/lib/auth/utils";
 import { getErrorMessage } from "@/utils/error";
 import { SetPasswordFormProps } from "./types";
 
-import { GET_MY_PARTICIPANTS, GET_USER } from "@/api/queries/users";
-import { LOGIN_PARTICIPANT } from "@/api/mutations/user";
+import { GET_MY_PARTICIPANTS, GET_USER } from "@/graphql/queries/users";
+import { LOGIN_PARTICIPANT } from "@/graphql/mutations/user";
 import PasswordStrengthIndicator from "./PasswordStrengthIndicator";
 
 const schema = object({

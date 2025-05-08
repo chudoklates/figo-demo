@@ -1,4 +1,4 @@
-import { Activity } from "@/api/types/activities";
+import { Activity } from "@/graphql/types/activities";
 import { getActivityLocationString } from "@/utils/activity";
 import { Box, Stack, Typography } from "@mui/material";
 

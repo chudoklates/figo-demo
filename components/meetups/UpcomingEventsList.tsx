@@ -4,9 +4,9 @@ import React from "react";
 import { Divider, Grid2, Skeleton, Stack } from "@mui/material";
 import EmptyState from "./components/EmptyState";
 import { useQuery } from "@apollo/client";
-import { GET_UPCOMING_TIMESLOTS } from "@/api/queries/event";
-import { Collection } from "@/api/types/cms";
-import { TimeSlot, TimeSlotFilter } from "@/api/types/event";
+import { GET_UPCOMING_TIMESLOTS } from "@/graphql/queries/event";
+import { Collection } from "@/graphql/types/cms";
+import { TimeSlot, TimeSlotFilter } from "@/graphql/types/event";
 import EventClientCard from "./EventClientCard";
 
 export default function UpcomingEventsList({

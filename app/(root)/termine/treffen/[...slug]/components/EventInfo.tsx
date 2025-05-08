@@ -6,7 +6,7 @@ import {
   NotAccessible,
   PlaceOutlined,
 } from "@mui/icons-material";
-import { Event } from "@/api/types/event";
+import { Event } from "@/graphql/types/event";
 import LocationLink from "./LocationLink";
 
 export default function EventInfo({ event }: { event: Event }) {

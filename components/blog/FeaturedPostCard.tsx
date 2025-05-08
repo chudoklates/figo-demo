@@ -1,4 +1,4 @@
-import type { BlogPost } from "@/api/types/blog";
+import type { BlogPost } from "@/graphql/types/blog";
 import { ContentfulImage } from "@/components";
 import { Link, Stack, Typography } from "@mui/material";
 import NextLink from "next/link";

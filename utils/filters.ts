@@ -1,4 +1,4 @@
-import { TimeSlotFilter } from "@/api/types/event";
+import { TimeSlotFilter } from "@/graphql/types/event";
 import { getGeometryForAddress } from "@/app/actions/geo";
 import { INITIAL_FILTERS, KEY_DATE_MAP } from "@/constants/filters";
 import { approximateRadius } from "@/lib/geo/utils";
