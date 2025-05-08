@@ -5,17 +5,17 @@ import GoogleTranslateWrapper from "@/lib/polyfill/GoogleTranslateWrapper";
 
 export const metadata: Metadata = {
   title: {
-    template: "%s - Figo Social",
-    default: "Figo Social",
+    template: "%s - Figo Demo",
+    default: "Figo Demo",
   },
   openGraph: {
     locale: "de_DE",
     type: "website",
-    url: "https://figosocial.de",
-    siteName: "Figo Social",
+    url: "https://figo-demo.vercel.app",
+    siteName: "Figo Demo",
     images: "/blog-hero.webp",
   },
-  metadataBase: new URL("https://figosocial.de"),
+  metadataBase: new URL("https://figo-demo.vercel.app"),
 };
 
 export default function RootLayout({
