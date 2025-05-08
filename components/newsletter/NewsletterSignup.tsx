@@ -1,5 +1,4 @@
 import { Stack, Typography } from "@mui/material";
-// import NewsletterSignupForm from "./NewsletterSignupForm";
 
 export default function NewsletterSignup({
   heading = "Ihr Weg zu geselligen Treffen",
@@ -14,7 +13,6 @@ export default function NewsletterSignup({
     <Stack spacing={2.5}>
       <Typography variant={mainHeading ? "h0" : "h2"}>{heading}</Typography>
       <Typography>{subtitle}</Typography>
-      {/* <NewsletterSignupForm suffix={mainHeading ? "-main" : "-bottom"} /> */}
     </Stack>
   );
 }
