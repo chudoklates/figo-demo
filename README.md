@@ -8,7 +8,9 @@ It was the first project on which I've worked with RSC and Next.js >14.
 
 ## Demo link
 
-***TBD***
+[Click me!](https://figo-demo.vercel.app/)
+
+![Vercel Deploy](https://deploy-badge.vercel.app/vercel/figo-demo)
 
 ## Getting Started
 
