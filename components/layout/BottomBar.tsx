@@ -71,7 +71,8 @@ export default function BottomBar() {
               }}
               size={{
                 xs: 12,
-                lg: "grow",
+                lg: 3,
+                xl: 2,
               }}
             >
               <Box
@@ -92,7 +93,7 @@ export default function BottomBar() {
             <Grid2
               size={{
                 xs: 12,
-                sm: "auto",
+                md: "grow",
               }}
             >
               <Typography
@@ -109,43 +110,33 @@ export default function BottomBar() {
                   mb: 3,
                 }}
               >
-                <Link
-                  href="#"
-                  color="inherit"
-                  sx={{
-                    display: "flex",
-                    gap: 1,
-                    alignItems: "center",
-                  }}
-                >
-                  <MailOutline />
-                  ***REMOVED***
-                </Link>
-                <Link
-                  href="#"
-                  color="inherit"
-                  sx={{
-                    display: "flex",
-                    gap: 1,
-                    alignItems: "center",
-                  }}
-                >
-                  <PhoneOutlined />
-                  ***REMOVED***{" "}
-                  <Typography sx={{ color: "rgba(13, 17, 56, 0.50)" }}>
-                    (WhatsApp)
-                  </Typography>
-                </Link>
                 <Typography
                   sx={{
                     mt: 3,
-                    display: "flex",
-                    gap: 1,
-                    alignItems: "center",
                   }}
                 >
-                  <ScheduleOutlined />
-                  10:00-18:00 Uhr Montag bis Freitag
+                  Programmed by Wojciech Jagielnicki,{" "}
+                  <Link
+                    href="https://yourstruly.dev"
+                    color="inherit"
+                    sx={{ fontWeight: 600 }}
+                  >
+                    www.yourstruly.dev
+                  </Link>
+                </Typography>
+                <Typography
+                  sx={{
+                    mt: 3,
+                  }}
+                >
+                  Designed by Marianna de Souza,{" "}
+                  <Link
+                    href="https://www.mariannadesouza.com/"
+                    color="inherit"
+                    sx={{ fontWeight: 600 }}
+                  >
+                    www.mariannadesouza.com
+                  </Link>
                 </Typography>
               </Stack>
               <SocialsSmall />
@@ -153,29 +144,7 @@ export default function BottomBar() {
             <Grid2
               size={{
                 xs: 12,
-                sm: "auto",
-                lg: "grow",
-              }}
-            >
-              <Typography
-                variant="h4"
-                component="p"
-                sx={{ fontFamily: arima.style.fontFamily }}
-              >
-                Wo wir sind
-              </Typography>
-              <Typography
-                sx={{
-                  mt: 3,
-                }}
-              >
-                ***REMOVED***
-              </Typography>
-            </Grid2>
-            <Grid2
-              size={{
-                xs: 12,
-                sm: "auto",
+                md: "auto",
                 lg: "grow",
               }}
             >
